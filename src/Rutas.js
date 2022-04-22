@@ -8,6 +8,7 @@ import DetalleProducto from './pages/DetalleProducto.js';
 import AltaProducto from './pages/AltaProducto.js';
 import NotFound from './pages/NotFound.js';
 import QuienSoy from './pages/QuienSoy.js';
+import FormularioProducto from './componentes/FormularioProducto.js';
 
 function Rutas () {
     return(
@@ -16,6 +17,7 @@ function Rutas () {
             <Route exact path="/" element={<Inicio/>}/>
             {/* <Route exact path = "/productos" element={<Contenedor/>}/> */}
             <Route exact path = "/productos" element={<Productos/>}/>
+            <Route exact path = "/producto/alta" element={<FormularioProducto/>}/>
             <Route exact path = "/producto/eliminar/:id" element={<EliminarProducto/>}/>
             <Route exact path = "/producto/detalle/:id" element={<DetalleProducto/>}/>
             <Route exact path="/altaProducto" element={<AltaProducto/>}/>
