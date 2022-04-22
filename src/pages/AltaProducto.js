@@ -29,11 +29,12 @@ class AltaProducto extends React.Component{
     pagar(e){
         switch(this.state.categoria){
             case 'cosmeticos': return this.setState({descuento:parseInt(this.state.precio) * 0.15})                 
-            break;  
+            //break;  
             case 'fragancias': return this.setState({descuento:parseInt(this.state.precio) * 0.20})
-            break;  
+            //break;  
             case 'piel': return this.setState({descuento:parseInt(this.state.precio) * 0.25})
-            break;      
+            //break;
+            default:      
         }
 
     }   

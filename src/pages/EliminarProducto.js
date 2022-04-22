@@ -18,7 +18,7 @@ function EliminarProducto() {
     
     useEffect(() => {
         eliminarProducto()
-    }, [])
+    })
 
     return (
         <div>
