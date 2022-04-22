@@ -1,0 +1,37 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.ficha{
+    display: flex;
+    display: inline-flex;
+    width: 380px;
+    height: 630px;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    border-radius: 56px;
+	margin-left: 50px;
+	margin-top:50px;
+    margin-bottom: 30px;
+}
+
+.imagen{
+   max-width: 100%;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+}
+
+.texto{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+
+.btn{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 60%;
+    
+}

@@ -1,0 +1,43 @@
+.foto {
+    margin: 30px;
+    width: 190px;
+    height: 40px;
+}
+
+.general{
+    width: 310px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.info{
+    margin-top: -30px;
+    margin-left: 270px;
+}
+
+.gustos{
+    margin-top: -180px;
+    margin-left: 620px;
+}
+
+.utvt{
+    margin-top: -180px;
+    margin-left: 970px;
+    
+}
+
+h5{
+    text-align: center;
+}
+
+p{
+    margin-left: 8px;
+}
+
+.boton-inicio{
+    margin-top: 100px;
+    margin-left: 220px;
+}
+

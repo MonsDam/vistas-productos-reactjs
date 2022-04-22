@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo{
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#header{
+    width: 1349px;
+    height: 100px;
+    background-color: black;
+}
